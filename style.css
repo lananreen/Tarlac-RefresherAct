@@ -1,0 +1,258 @@
+.Container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Background.jpg');
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.Container1 ul li {
+    display: inline;
+    padding: 30px;
+}
+
+.Container1 a {
+    color: #F1642E;
+    text-decoration: none;
+}
+
+.Container1 a:hover {
+    color: #A3B565;
+}
+
+.Container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+
+.Me {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1200px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px; 
+    padding: 55px; 
+    margin-top: 100px;
+}
+
+.Me img {
+    width: 20%; 
+    max-width: 400px;
+    height: auto;
+}
+
+.Me div {
+    width: 50%; 
+    text-align: left; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+  
+.Me h1 {
+    color: #F1642E;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.Me p {
+    font-size: 23px;
+    color: #333; 
+    line-height: 1.5;
+    margin: 0;
+    color: #A3B565;
+}
+
+.Container3 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    margin-top: 100px;
+    gap: 100px; 
+}
+
+.Skills h2
+{   
+    color: #F1642E;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Skills ul
+{
+    font-size: 25px;
+    line-height: 2;
+    margin: 0;
+    color: #A3B565;
+}
+
+.Education h3 
+{
+    color: #F1642E;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Education ul 
+{
+    font-size: 25px;
+    line-height: 2;
+    margin: 0;
+    color: #A3B565;
+}
+
+.Container4
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin-top: 100px;
+}
+
+.Projects
+{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px; 
+    padding: 50px; 
+    margin-top: 50px;
+}
+
+.Projects h4
+{
+    color: #F1642E;
+    font-size: 150px;
+    margin: 0;
+}
+
+.Projects ul
+{
+    font-size: 20px;
+}
+
+.Projects ul li
+{
+    color: #A3B565;
+    line-height: 2;
+}
+
+.Projects a
+{
+    text-decoration: none;
+    color: #A3B565;
+}
+
+.Projects a:hover
+{
+    font-size: 30px;
+    color: #F1642E;
+}
+
+.Container6
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+
+.Contacts
+{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px; 
+    padding: 55px; 
+    margin-top: 100px;
+}
+
+.Contacts img
+{
+    width: 20%; 
+    max-width: 400px;
+    height: auto;
+}
+
+.Contacts h5
+{
+    font-size: 25px;
+    color: #F1642E;
+    margin: 0;
+}
+
+.Contacts a
+{
+    text-decoration: none;
+    color: #A3B565;
+    line-height: 1.5;
+}
+
+.Contacts a:hover
+{
+    font-size: 20px;
+}
+
+
+.Contacts p
+{
+    color: #A3B565;
+}
+
+.Container5 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    margin-top: 100px;
+    gap: 100px; 
+}
+
+.Experiences h4
+{   
+    color: #F1642E;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Experiences ul
+{
+    font-size: 25px;
+    line-height: 2;
+    margin: 0;
+    color: #A3B565;
+}
+
+button 
+{
+    background-color: #F1642E;
+    color: white;
+    border: none;
+}
