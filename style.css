@@ -255,4 +255,7 @@ button
     background-color: #F1642E;
     color: white;
     border: none;
+    width: 110px;
+    height: 43px;
+    border-radius: 10px;
 }
